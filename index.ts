@@ -8,7 +8,7 @@ const prompt = promptSync()
 import chalk from 'chalk';
 
 
-console.log(chalk.bgGreen.italic.bold('\n ********************* Welcom to the To DO List ******************\n'));
+console.log(chalk.bgGreen.italic.bold('\n ********************* Welcom to the To DO List ******************'));
 
 let myList: string[] = [];
 

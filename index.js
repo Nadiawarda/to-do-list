@@ -3,7 +3,7 @@ import inquirer from 'inquirer';
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
 import chalk from 'chalk';
-console.log(chalk.bgGreen.italic.bold('\n ********************* Welcom to the To DO List ******************\n'));
+console.log(chalk.bgGreen.italic.bold('\n ********************* Welcom to the To DO List ******************'));
 let myList = [];
 while (true) {
     const answer = await inquirer.prompt([
